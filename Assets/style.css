@@ -55,10 +55,3 @@ body {
     text-shadow: 0.5px 0.5px black;
 }
 
-.body-radio-wrapper {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
