@@ -48,3 +48,11 @@ window.onload = async function () {
    })
 };
  
+// Fetch Jokes
+const jokeButton = document.getElementById("joke-button")
+jokeButton.addEventListener('click', async function (){
+   const value = await fetchJoke(currentCateegory)
+   const jokeText = document.getElementById("body-joke-area")
+   jokeText.innerHTML = ""
+   jokeText.innerHTML = value
+})
