@@ -26,7 +26,8 @@ window.onload = async function () {
    data = await fetchCategories()
    
    Array.from(data).forEach((category) => {
-      const categoryWrapper = document.createElement("div")
+      const categoryWrapper = document.createElement("div");
+      categoryWrapper.className = 'category-container';
       
       const radio = document.createElement("input")
       radio.type = "radio"
