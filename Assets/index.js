@@ -35,7 +35,7 @@ window.onload = async function () {
       radio.value = category
       radio.id = category
       radio.addEventListener('click', () => {
-         currentCategory = event.target.id
+         currentCategory = Event.target.id
       })
       
       categoryWrapper.appendchild(radio)
