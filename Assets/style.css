@@ -8,11 +8,7 @@ body {
     background-color: cyan;
 }
 
-.header-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-}
+
 
 .header-banner {
     background-color: black;
