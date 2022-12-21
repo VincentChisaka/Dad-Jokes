@@ -56,3 +56,7 @@ jokeButton.addEventListener('click', async function (){
    jokeText.innerHTML = ""
    jokeText.innerHTML = value
 })
+
+// Logging In
+   var login = document.getElementById("clickButton");
+login.addEventListener('click', validate, false);
