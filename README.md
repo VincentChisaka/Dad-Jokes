@@ -14,4 +14,6 @@ On your terminal open the file directory. When you're at the file open via VS Co
 
 ## Author
 This project is done by Vincent Chisaka.
- 
+
+## License
+MIT-Licensed.
