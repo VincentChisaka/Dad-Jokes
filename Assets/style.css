@@ -48,7 +48,7 @@ body {
     margin-top: 51px;
 }
 
-.body-joke-button {
+#joke-button {
     width: 100px;
     padding: 10px;
     font-size: 20px;

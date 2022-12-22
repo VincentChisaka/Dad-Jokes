@@ -1,6 +1,6 @@
 // Fetching Categories for UI
 async function fetchCategories() {
-  const response = await fetch('https://api.chucknorris.io/jokes/categories');
+  const response = await fetch(`https://api.chucknorris.io/jokes/categories`);
   
   const data = await response.json();
   return data;
@@ -8,8 +8,7 @@ async function fetchCategories() {
 
 // Fetch single joke function
 async function fetchJoke(currentCategory) {
-  const response = await fetch(
-      `https://api.chucknorris.io/jokes/random?category=${currentCategory}`
+  const response = await fetch(`https://api.chucknorris.io/jokes/random?category={category}`
 );
 
 const data = await response.json();
