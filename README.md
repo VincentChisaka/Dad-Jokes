@@ -9,7 +9,7 @@ Once your page is loaded there is a category of joke lists that you'll choose fr
 
 ## Project Setup.
 On your terminal open the file directory. When you're at the file open via VS Code and open the page where you're code will be written. The code is also linked to a public API where the data is fetched.
- <a href="https://vincentchisaka.github.io/Best-Of-Chuck-Norris-Joke/">This is the LINK to the website.
+ <a href="https://github.com/VincentChisaka/Best-Of-Chuck-Norris-Joke/commit/191dce318211375784b63611e52a530db2579a7a/"> Link to Github.
 
 ## Author
 This project is done by Vincent Chisaka.
