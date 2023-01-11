@@ -1,7 +1,7 @@
 # Dad-Jokes Generator.
 
 ## Title.
-Best-Of-Chuck-Norris Joke.
+DAD JOKES.
 
 ## Project Description.
 The program is set to show best jokes when the user clicks a button and the jokes are generated according to the category selected.
