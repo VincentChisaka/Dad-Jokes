@@ -44,5 +44,48 @@ font: bold 17px arial
   top: 0;
   width: 100%;
   height: 100%;
-  z-index: 1;
+  z-index: 1099;
+}
+
+.login-popup .box {
+  background-color: #ffffff;
+  width: 750px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.login-popup .box .img-area {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 30px;
+  margin-top: 5vh;
+}
+
+.login-popup .box .form h1{
+  color:#000000;
+  font-size: 30px;
+  margin:0 0 30px;
+}
+.login-popup .box .form .form-control {
+  height: 45px;
+  margin-bottom: 30px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #cccccc;
+  font-size: 15px;
+  color: #000000;
+}
+.login-popup .box .form .form-control:focus{
+  outline: none;
+}
+.login-popup .box .form label{
+  font-size: 15px;
+  color: #555555;
+}
+.login-popup .box .form .btn{
+
 }
