@@ -5,7 +5,7 @@ body {
 
 h1 {
   margin: auto;
-  font-size: 6vh;
+  font-size: 5vh;
 }
 
 
@@ -18,19 +18,20 @@ h1 {
 }
 
 #btn {
-margin-top: 20vh;
+margin-top: 16vh;
 border: none;
 outline: none;
 background: transparent;
-color: white;
-border: 8px solid white;
+color: #fff;
+border: 9px solid white;
 padding: 10px 50px;
 cursor: pointer;
+font: bold 19px arial
 }
 
 #content {
   margin: auto;
-  padding: 4vh;
+  padding: 6vh;
   font-size: 1.9rem;
   max-width: 700px;
   margin-top: 20px;
