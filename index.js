@@ -3,4 +3,13 @@
 
 document.getElementById("btn").addEventListener("click", joke);
 
-async
+async function joke() {
+  let config = {
+    headers: {
+      Accept: "application/json",
+    },
+  };
+
+
+
+}
