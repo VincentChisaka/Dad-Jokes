@@ -2,11 +2,15 @@
 //https://icanhazdadjoke.com/ //
 
 const loginPopup = document.querySelector(".login-popup");
+const close = document.querySelector(".close");
 
 window.addEventListener("load", function(){
 
-  showPop();
-  
+// showPop();
+setTimeout(function (){
+  loginPopup.classList.add("show");
+},5000)
+
 })
 
 function showPop() {
@@ -22,6 +26,10 @@ function showPop() {
    },1000);
    
 }
+// another simple way to show popup
+close.addEventListener("click", function(){
+  loginPopup.classList.remove("show");
+}) 
 
 document.getElementById("btn").addEventListener("click", joke);
 

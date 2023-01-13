@@ -153,3 +153,8 @@ font: bold 17px arial
   font-size: 30px;
   cursor: pointer;
 }
+
+/*responsive*/
+@media(max-width: 767px){
+
+}
