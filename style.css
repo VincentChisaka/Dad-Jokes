@@ -156,5 +156,14 @@ font: bold 17px arial
 
 /*responsive*/
 @media(max-width: 767px){
-
+   .login-popup .box{
+      width: calc(100% - 30px);
+   }
+   .login-popup .box .img-area{
+      display: none;
+   }
+   .login-popup .box .form{
+      flex: 0 0 100%;
+      max-width: 100%;
+   }
 }
