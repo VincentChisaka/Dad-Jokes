@@ -63,6 +63,13 @@ font: bold 17px arial
   transform: translate(-50%, -50%);
   display: flex;
   flex-wrap: wrap;
+  opacity: 0;
+  margin-left: 50px;
+  transition: all 1s ease;
+}
+.login-popup.show .box{
+  opacity: 1;
+  margin-left: 0;
 }
 
 .login-popup .box .img-area {
